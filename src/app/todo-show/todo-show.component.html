@@ -1,0 +1,17 @@
+<p>todo-show works!</p>
+<table border="3">
+    <tr>
+        <th>UserId</th>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Completed</th>
+    </tr>
+    <tr *ngFor="let u of todos">
+        <td>{{u.userId}}</td>
+        <td>{{u.id}}</td>
+        <td>{{u.title}}</td>
+        <td>{{u.completed}}</td>
+
+       
+    </tr>
+</table>
